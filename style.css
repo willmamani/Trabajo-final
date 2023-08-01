@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+:root {
+  --background: rgb(236, 236, 236);
+  --primary: white;
+  /* textos */
+  --text-gray: #adb9c7;
+  --text-red: rgb(165, 0, 0);
+}
+header {
+  background: var(--primary);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 65px;
+  padding: 0px 30px 0px 30px;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  box-shadow: 0 8px 24px black;
+}
+.navbar {
+  gap: 150px;
+}
+.navbar-list {
+  gap: 30px;
+}
+.navbar-list a {
+  color: black;
+  font-size: 25px;
+}
+.navbar,
+.navbar-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Portada */
+.container-cover {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  top: 65px;
+  background-image: url(./img/portada.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container-cover::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 0, 0.315);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.Logo {
+  height: 100%;
+  cursor: pointer;
+}
+.container-info-cover {
+  max-width: 800px;
+  height: 500px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.container-info-cover h1 {
+  font-size: 80px;
+  font-weight: 800;
+  color: white;
+  margin-bottom: 10px;
+}
+.container-info-cover p {
+  font-size: 30px;
+  font-weight: 800;
+  color: white;
+}
+.navbar i {
+  font-size: 36px;
+  display: none;
+}
+#toggle-menu {
+  display: none;
+}
+
+/* productos */
+#products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+  max-width: 100%;
+  width: 100%;
+}
+#products h2 {
+  padding: 80px;
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 40px 0px;
+  max-width: 1200px;
+}
+.product {
+  padding: 20px;
+  border: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.product img {
+  width: 300px;
+  height: 220px;
+  box-shadow: 0 8px 24px 0px rgba(14, 14, 13, 0.582);
+}
+.product-info h3 {
+  font-size: 35px;
+}
+.product-mid {
+  font-size: 30px;
+  font-weight: 550;
+}
+.buy-button {
+  color: black;
+  background: rgba(235, 219, 0, 0.829);
+  border: none;
+  border-radius: 15px;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 25px;
+}
+main {
+  background: rgba(255, 255, 255, 0.74);
+}
+/* footer */
+.footer-link img {
+  width: 50px;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 8px;
+}
+footer {
+  text-align: end;
+  background: white;
+  padding: 60px 20px;
+}
+.hr {
+  border: 2px solid;
+  background-color: rgba(0, 0, 0, 0.623);
+  box-shadow: 0px 8px 24px 15px rgba(0, 0, 0, 0.815);
+}
+/* beneficios */
+#benefits {
+  display: flex;
+  background: #c0c0b82f;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px;
+
+  width: 100%;
+}
+#benefits h2 {
+  text-align: center;
+  padding: 50px 0 40px 0;
+  font-size: 50px;
+  font-weight: 800;
+}
+.benefits {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding: 40px 0px;
+  max-width: 500px;
+}
+
+.benefits-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 40px 0px;
+  max-width: 1500px;
+}
+.benefits img {
+  width: 500px;
+  height: 300px;
+  box-shadow: 0 8px 24px 0px rgb(14, 14, 13);
+}
+
+.benefits-text {
+  font-size: 30px;
+}
+.benefits-text p {
+  font-size: 30px;
+  max-width: 100%;
+}
