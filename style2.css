@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@500&display=swap");
+* {
+  font-family: "Bebas Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+:root {
+  --primary: rgba(0, 0, 0, 0.507);
+  --secondary: white;
+  --boton: rgba(29, 29, 31, 0.301);
+  --send: rgba(29, 29, 31, 0.589);
+}
+body {
+  width: 100%;
+  background-image: url(./img/login/paisaje.jpg);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1200px;
+}
+body h1 {
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  font-size: 50px;
+  margin-bottom: 50px;
+  color: var(--secondary);
+  background: var(--primary);
+  border-radius: 10px;
+}
+.formulario {
+  background: var(--primary);
+  width: 380px;
+  height: 250px;
+  color: var(--secondary);
+  font-size: 25px;
+  padding: 30px 30px;
+  margin-top: 60px;
+  margin: auto;
+  border-radius: 10px;
+}
+.enter {
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  height: 35px;
+  width: 180px;
+  margin-left: 10px;
+}
+.btn {
+  border: none;
+  background: var(--boton);
+  padding: 10px 10px;
+  margin: auto;
+  width: 300px;
+  font-size: 25px;
+  font-weight: 200;
+  cursor: pointer;
+  color: var(--secondary);
+  border-radius: 10px;
+}
+.pag {
+  font-size: 20px;
+  padding-top: 38px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+}
+.pag a {
+  font-size: 25px;
+  font-weight: 580;
+  color: var(--secondary);
+  border-radius: 10px;
+  background: var(--boton);
+  padding: 10px 10px;
+}
+/* REGISTRO */
+.formulario-registro {
+  background: var(--primary);
+  width: 500px;
+  height: 750px;
+  color: var(--secondary);
+  font-size: 25px;
+  padding: 30px 30px;
+  margin-top: 60px;
+  margin: auto;
+  border-radius: 10px;
+}
+.chebox {
+  margin-left: 10px;
+  font-size: 14px;
+  height: 25px;
+  width: 90px;
+}
+.send {
+  border: none;
+  background: var(--send);
+  padding: 5px 10px;
+  margin: auto;
+  width: 380px;
+  font-size: 25px;
+  font-weight: 200;
+  cursor: pointer;
+  color: var(--secondary);
+  border-radius: 10px;
+  margin-left: 25px;
+}
