@@ -6,7 +6,6 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style-type: none;
-  /* border: 1px solid blue; */
 }
 :root {
   --background: rgb(236, 236, 236);
@@ -150,8 +149,7 @@ header {
 }
 
 .cart-item img {
-  height: 80px;
-  width: 100px;
+  height: 65px;
 }
 .item-info {
   display: flex;
@@ -380,10 +378,6 @@ footer {
 #benefits h2 {
   font-size: 40px;
 }
-/* .benefits {
-
-  padding: 0px 80px;
-} */
 
 .benefits-container {
   display: flex;
@@ -391,7 +385,7 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 40px 0px;
-  max-width: 1400px;
+  max-width: 1200px;
   gap: 80px;
   margin-bottom: 80px;
 }

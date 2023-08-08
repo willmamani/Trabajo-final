@@ -41,3 +41,18 @@
     margin-top: 7px;
   }
 }
+@media (max-width: 592px) {
+  .navbar-list {
+    left: 0%;
+    right: 0%;
+  }
+  .cart {
+    left: 0;
+    width: 100%;
+    border: none;
+  }
+
+  .cart-item {
+    flex-wrap: wrap;
+  }
+}

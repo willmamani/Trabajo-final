@@ -1,0 +1,16 @@
+@media (max-width: 992px) {
+  body {
+    flex-wrap: wrap;
+  }
+  .formulario-registro {
+    max-width: 100%;
+  }
+}
+@media (max-width: 592px) {
+  body {
+    flex-wrap: wrap;
+  }
+  .formulario-registro {
+    max-width: 100%;
+  }
+}
