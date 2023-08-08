@@ -107,8 +107,138 @@ header {
   font-size: 36px;
   display: none;
 }
-#toggle-menu {
+/* menu */
+#menu-toggle,
+.menu-label {
   display: none;
+}
+/* carrito */
+
+.cart {
+  position: absolute;
+  background: linear-gradient(
+    to top,
+    rgba(255, 254, 254, 0.493),
+    rgba(255, 255, 255, 0.719)
+  );
+  height: calc(100vh - 65px);
+  top: 65px;
+  right: 0;
+  border-left: 2px solid black;
+  padding: 50px 30px;
+  flex-direction: column;
+  gap: 30px;
+  /* z-index: 2; */
+  overflow-y: scroll;
+  display: none;
+}
+.cart::-webkit-scrollbar {
+  display: none;
+}
+.cart-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  background-color: var(--container);
+  padding: 20px;
+  border-radius: 15px;
+}
+.cart h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.cart-item img {
+  height: 80px;
+  width: 100px;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
+.item-tittle {
+  color: var(--primary);
+  font-size: 25px;
+  font-weight: 500;
+}
+.item-bid {
+  color: var(--primary);
+  font-size: 20px;
+  font-weight: 300;
+}
+.item-price {
+  color: var(--primary);
+  font-size: 25px;
+  font-weight: 300;
+  background: linear-gradient(to top, green, white);
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.item-handler {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.quantity-handler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 5px;
+  color: var(--primary);
+  font-weight: 400;
+}
+.down {
+  cursor: pointer;
+  border: 1px solid var(--primary);
+}
+.up {
+  cursor: pointer;
+  border: 1px solid var(--primary);
+}
+.item-quantity {
+  color: var(--primary);
+}
+
+#cart-toggle {
+  display: none;
+}
+#cart-toggle:checked + .cart {
+  display: flex;
+}
+.btn-add {
+  border: none;
+  background: var(--container);
+  padding: 10px 10px;
+  margin: auto;
+  width: 300px;
+  font-size: 25px;
+  font-weight: 200;
+  cursor: pointer;
+  color: var(--primary);
+  border-radius: 10px;
+}
+.divider {
+  margin-top: 20px;
+  border: 0.5px solid var(--container);
+}
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.cart-total p {
+  color: var(--secundary);
+  font-weight: 500;
+  font-size: 20px;
+}
+.cart-total span {
+  color: var(--secundary);
+  font-weight: 500;
+  font-size: 20px;
 }
 
 /* productos */

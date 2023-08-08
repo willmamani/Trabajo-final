@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-
     <link rel="stylesheet" href="./style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="./mediaqueries.css">
     <link rel="icon" type="image/png" sizes="32x32" href="./img/favicom.ico" />
     <title>Wilma comidas rapidas</title>
   </head>
@@ -17,8 +17,10 @@
     <header class="bars">
       <img src="./img/logo.png" alt="Logo" class="Logo" />
       <nav class="navbar">
-        <!-- <label for="toggle-menu"><i class="fa-solid fa-bars"></i></label>
-        <input type="checkbox" id="toggle-menu" /> -->
+        <label for="menu-toggle" class="menu-label">
+          <img src="./img/menu.png" alt="menuicon" class="menu-icon">
+        </label>
+<input type="checkbox" id="menu-toggle">
 
         <ul class="navbar-list">
           <li><a href="#">Inicio</a></li>
@@ -29,10 +31,108 @@
         <label for="cart-toggle">
           <img src="./img/carrito.svg" alt="carrito" class="cart-icon">
         </label>
-        <!-- <input type="checkbox" id="cart-toggle"> -->
+        <input type="checkbox" id="cart-toggle">
+
+        <div class="cart">
+        <h2>Compras</h2>
+<!-- compra 1 -->
+        <div class="cart-item">
+        <img src="./img/imagenes/hambur doble.jpg" alt="hambuguersa doble">
+        <div class="item-info">
+<h3 class="item-tittle">HAMBURGUESA</h3>
+<p class="item-bid">DOBLE</p>
+<span class="item-price">
+  3 USD
+</span>
+        </div>
+
+        <div class="item-handler">
+          <span class="quantity-handler down">-</span>
+          <span class="item-quantity">1</span>
+          <span class="quantity-handler up ">+</span>
+        </div>
+        </div>
+
+<!-- compra 2 -->
+        <div class="cart-item">
+        <img src="./img/imagenes/milanesa con pure.jpg" alt="milanesa con pure">
+        <div class="item-info">
+<h3 class="item-tittle">MILANESA</h3>
+<p class="item-bid">CON PURE</p>
+<span class="item-price">
+  6 USD
+</span>
+        </div>
+
+        <div class="item-handler">
+          <span class="quantity-handler down">-</span>
+          <span class="item-quantity">1</span>
+          <span class="quantity-handler up ">+</span>
+        </div>
+        </div>
+        <!-- compra 3 -->
+        <div class="cart-item">
+          <img src="./img/imagenes/papa fritas.jpg" alt="papa fritas">
+          <div class="item-info">
+  <h3 class="item-tittle">PAPAS FRITAS</h3>
+  <p class="item-bid"></p>
+  <span class="item-price">
+    2 USD
+  </span>
+          </div>
+  
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up ">+</span>
+          </div>
+          </div>
+        <!-- compra 4 -->
+        <div class="cart-item">
+          <img src="./img/imagenes/pollo con papas.jpg" alt="pollo con papa">
+          <div class="item-info">
+  <h3 class="item-tittle">POLLO REBOZADO</h3>
+  <p class="item-bid">Con papa fritas</p>
+  <span class="item-price">
+    5 USD
+  </span>
+          </div>
+  
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">3</span>
+            <span class="quantity-handler up ">+</span>
+          </div>
+          </div>
+        <!-- compra 5 -->
+        <div class="cart-item">
+          <img src="./img/imagenes/pizza napolitana.jpg" alt="pizza napolitana">
+          <div class="item-info">
+  <h3 class="item-tittle">PIZZA</h3>
+  <p class="item-bid">Napolitana</p>
+  <span class="item-price">
+    3 USD
+  </span>
+          </div>
+  
+          <div class="item-handler">
+            <span class="quantity-handler down">-</span>
+            <span class="item-quantity">1</span>
+            <span class="quantity-handler up ">+</span>
+          </div>
+          </div>
+        <!-- TOTAL -->
+        <span class="divider"></span>
+        <div class="cart-total">
+          <p>Total</p>
+          <span>24 USD</span>
+        </div>
+        <button class="btn-add">Comprar</button>
+        </div>
       </nav>
     </header>
     <main>
+      <!-- PORTADA -->
       <div class="container-cover">
         <div class="container-info-cover">
           <h1>COMIDAS RAPIDAS</h1>
