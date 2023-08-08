@@ -58,7 +58,13 @@
   }
 }
 @media (max-width: 600px) {
+  header {
+    width: 100%;
+  }
   main {
+    width: 100%;
+  }
+  .container-cover {
     width: 100%;
   }
 }
