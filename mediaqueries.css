@@ -67,4 +67,11 @@
   .container-cover {
     width: 100%;
   }
+  footer {
+    max-width: 100%;
+  }
+  .about-container p {
+    width: 400px;
+    font-size: 20px;
+  }
 }
