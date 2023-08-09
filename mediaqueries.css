@@ -55,4 +55,7 @@
   .cart-item {
     flex-wrap: wrap;
   }
+  #products h2 {
+    font-size: 38px;
+  }
 }

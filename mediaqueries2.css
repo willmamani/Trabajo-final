@@ -14,3 +14,33 @@
     max-width: 100%;
   }
 }
+@media (max-width: 592px) {
+  .send {
+    max-width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+  }
+  .pag {
+    flex-wrap: wrap;
+    margin-top: 190px;
+    max-width: 100%;
+  }
+  .chebox {
+    margin-top: 20px;
+  }
+  .acept {
+    background: var(--send);
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 392px) {
+  .pag {
+    margin-top: 230px;
+    margin-right: 20px;
+  }
+}

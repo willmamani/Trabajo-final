@@ -72,6 +72,7 @@ body h1 {
   display: flex;
   justify-content: center;
   width: 300px;
+  margin-top: 60px;
 }
 .pag a {
   font-size: 25px;
@@ -99,16 +100,22 @@ body h1 {
   height: 25px;
   width: 90px;
 }
+.acept {
+  display: flex;
+  justify-content: center;
+}
 .send {
   border: none;
   background: var(--send);
-  padding: 5px 10px;
+  padding: 5px 20px;
   margin: auto;
-  width: 380px;
+  width: 300px;
+  max-width: 100%;
   font-size: 25px;
   font-weight: 200;
   cursor: pointer;
   color: var(--secondary);
   border-radius: 10px;
-  margin-left: 25px;
+  margin-left: 70px;
+  margin-top: 50px;
 }
