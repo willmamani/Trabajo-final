@@ -62,7 +62,6 @@
 @media (max-width: 500px) {
   #products h2 {
     max-width: 100%;
-    /* background: red; */
     font-size: 38px;
     text-align: center;
   }
