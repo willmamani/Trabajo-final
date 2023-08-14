@@ -66,3 +66,28 @@
     text-align: center;
   }
 }
+@media (max-width: 360px) {
+  .product img {
+    width: 270px;
+  }
+  .Logo {
+    height: 90px;
+  }
+  .benefits img {
+    margin-left: 12px;
+    width: 270px;
+  }
+  .benefits-text {
+    width: 290px;
+    text-align: center;
+  }
+  .footer-box {
+    max-width: 100%;
+  }
+  .mapa {
+    width: 230px;
+  }
+  .btn-add {
+    width: 100%;
+  }
+}

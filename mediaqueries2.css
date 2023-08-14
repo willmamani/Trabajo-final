@@ -43,4 +43,41 @@
     margin-top: 230px;
     margin-right: 36px;
   }
+  .formulario {
+    max-width: 100%;
+  }
+}
+@media (max-width: 360px) {
+  .btn {
+    max-width: 100%;
+  }
+  .formulario {
+    max-width: 100%;
+  }
+  .footer {
+    width: 100%;
+  }
+  .mapa {
+    width: 230px;
+  }
+  .contacto {
+    width: 250px;
+    /* color: red;
+    font-size: 10px; */
+  }
+  .contacto li {
+    font-size: 20px;
+  }
+  .footer-box {
+    max-width: 100%;
+  }
+  .pag {
+    margin-left: 10px;
+  }
+  .formulario-registro {
+    height: 850px;
+  }
+  .send {
+    margin-left: 3px;
+  }
 }
