@@ -73,6 +73,11 @@
     width: 345px;
   }
 }
+@media (max-width: 410px) {
+  .mapa {
+    width: 328px;
+  }
+}
 @media (max-width: 380px) {
   .mapa {
     width: 295px;
