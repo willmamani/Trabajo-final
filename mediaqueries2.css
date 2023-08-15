@@ -38,6 +38,11 @@
     justify-content: center;
   }
 }
+@media (max-width: 430px) {
+  .mapa {
+    width: 345px;
+  }
+}
 @media (max-width: 392px) {
   .pag {
     margin-top: 230px;
@@ -45,6 +50,12 @@
   }
   .formulario {
     max-width: 100%;
+  }
+  .mapa {
+    width: 295px;
+  }
+  .formulario-registro {
+    height: 780px;
   }
 }
 @media (max-width: 360px) {
@@ -58,7 +69,7 @@
     width: 100%;
   }
   .mapa {
-    width: 230px;
+    width: 235px;
   }
   .contacto {
     width: 250px;
